@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Communauté des Mere" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Informations" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_pregnant_woman_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_sante"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Santé" />
+        <item
+            android:id="@+id/nav_imu"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Immunisation" />
+        <item
+            android:id="@+id/nav_diarrhe"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Suivi de diarrhée" />
+        <item
+            android:id="@+id/nav_calcu"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Calcu Maternel" />
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Quiz" />
+
+    </group>
+
+    <item
+        android:id="@+id/nav_log"
+        android:title="Log out" />
+
+</menu>
